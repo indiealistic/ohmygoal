@@ -1,6 +1,6 @@
-appId: com.example.nextron
-productName: My Nextron App
-copyright: Copyright © 2018 Yoshihide Shiono
+appId: dev.indiealistic.nextron
+productName: OhMyGoal
+copyright: Copyright © 2021 Indiealistic
 directories:
   output: dist
   buildResources: resources

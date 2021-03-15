@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "my-nextron-app",
-  "description": "My application description",
+  "name": "ohmygoal",
+  "description": "Personal tool for manage my goals",
   "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "author": "Indiealistic <hey@indiealistic.studio>",
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron",
@@ -11,16 +11,17 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
-    "@zeit-ui/react": "^1.8.1",
-    "electron-serve": "^1.1.0",
-    "electron-store": "^7.0.2"
+    "@zeit-ui/react": "0.0.1-alpha.40",
+    "electron-serve": "^0.4.1",
+    "electron-store": "^5.1.1"
   },
   "devDependencies": {
-    "electron": "^11.3.0",
-    "electron-builder": "^22.9.1",
-    "next": "^10.0.7",
-    "nextron": "^6.0.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "electron": "^8.5.2",
+    "electron-builder": "^22.4.1",
+    "next": "^9.3.2",
+    "nextron": "^5.14.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "babel-loader": "^8.1.0"
   }
 }

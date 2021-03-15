@@ -30,18 +30,23 @@ const Next = () => {
         </div>
         <style jsx global>
           {`
+
           *{
             box-sizing:border-box
           }
+
           .p-sm{
             padding:5px
           }
+
           .p-md{
             padding:10px
           }
+
           .p-lg{
             padding:15px
           }
+
         `}
         </style>
       </div>
